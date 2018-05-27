@@ -1,10 +1,11 @@
-package bd.org.bitm.mad.batch33.tourmate;
+package bd.org.bitm.mad.batch33.tourmate.Activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import bd.org.bitm.mad.batch33.tourmate.R;
 import bd.org.bitm.mad.batch33.tourmate.fragment.Event.EventFragment;
 import bd.org.bitm.mad.batch33.tourmate.fragment.Event.EventListFragment;
 
@@ -31,12 +33,14 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.addnewBtn);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Add new Event", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
+
             }
         });
 

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "409769392902",
+    "firebase_url": "https://tourmate-1f206.firebaseio.com",
+    "project_id": "tourmate-1f206",
+    "storage_bucket": "tourmate-1f206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409769392902:android:2be0e8f51a31193a",
+        "android_client_info": {
+          "package_name": "bd.org.bitm.mad.batch33.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409769392902-h20of6f3fr57p4au752s0ibjd1pruvpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1ldAXENfqq9PaYD3wbA39-c_8cXqgfFY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
